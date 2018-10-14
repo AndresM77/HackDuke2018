@@ -138,8 +138,3 @@ img:last-of-type {
    background-image: linear-gradient(orange, white);
   transform: translateZ(-1px) scale(2);
 }
-
-#slide2 {
-  background-image: linear-gradient(white, white);
-  z-index:2;
-}
