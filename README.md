@@ -1,37 +1,3 @@
-## Welcome to GitHub Pages
+## Sourced
 
-You can use the [editor on GitHub](https://github.com/AndresM77/HackDuke2018/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/AndresM77/HackDuke2018/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+Sourced is a site for individuals to share educational materials, give feedback over them, and find educational materials which they are interested in. It's goal is to provide a centralized location for individuals to find free educational resources which are scattered across the internet while also giving the proper credit to creators who made the material. This platform wouldn't have a lengthy screening process thus allowing anyone to post material, not just those who have the time and resources to get certified on Coursera or Udacity. Furthermore, it would be easier to find information you are looking for rather than first having to sift through a 40 hour course. 
