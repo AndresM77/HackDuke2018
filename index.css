@@ -26,20 +26,20 @@ p {
   color: #333;
 }
 
-.btn {
-    background-color: DodgerBlue;
-    border: none;
-    color: white;
-    padding: 12px 16px;
-    font-size: 16px;
-    float:right;
-    float:top;
-    cursor: pointer;
-    position: relative;
+.btn{
+  background-color: #8521c4;
+  border-color: #8521c4;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-size: 100%;
+  text-transform: uppercase;
+  border-radius: 10%;
+  padding: 1.5%;
+  position: relative;
 }
 
 .btn:hover {
-    background-color: RoyalBlue;
+    background-color: #9c40d6;
 }
 
 .slide {
@@ -118,6 +118,11 @@ img:last-of-type {
   text-shadow: 0 2px 2px #000;
 }
 
+#selection{
+  display: flex;
+  justify-content: space-between;
+}
+
 #title {
   background-image:linear-gradient(blue,orange);
   z-index:2;
@@ -137,9 +142,4 @@ img:last-of-type {
 #slide2 {
   background-image: linear-gradient(white, white);
   z-index:2;
-}
-
-#slide3:before {
-  background-image: linear-gradient(gray, gray);
-  transform: translateZ(-1px) scale(2);
 }
