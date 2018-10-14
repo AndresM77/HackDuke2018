@@ -43,6 +43,7 @@
 .form button:hover,.form button:active,.form button:focus {
   background: #8521c4;
 }
+
 .form .message {
   margin: 15px 0 0;
   color: #b3b3b3;
@@ -96,7 +97,7 @@ body {
   background: linear-gradient(to left, #9c40d6, #8521c4);
   font-family: "Roboto", sans-serif;
   -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;      
+  -moz-osx-font-smoothing: grayscale;
 }
 
 #but {

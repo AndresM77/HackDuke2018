@@ -5,7 +5,7 @@ html {
   overflow: hidden;
 }
 
-body { 
+body {
   margin:0;
   padding:0;
 	perspective: 1px;
@@ -24,6 +24,22 @@ p {
   font-size: 140%;
   line-height: 150%;
   color: #333;
+}
+
+.btn {
+    background-color: DodgerBlue;
+    border: none;
+    color: white;
+    padding: 12px 16px;
+    font-size: 16px;
+    float:right;
+    float:top;
+    cursor: pointer;
+    position: relative;
+}
+
+.btn:hover {
+    background-color: RoyalBlue;
 }
 
 .slide {
@@ -92,7 +108,7 @@ img:last-of-type {
 }
 
 .slide, .slide:before {
-  background: 50% 50% / cover;  
+  background: 50% 50% / cover;
 }
 
 .header {

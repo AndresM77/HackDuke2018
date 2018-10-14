@@ -12,16 +12,15 @@ input[type=text]:focus {
     width: 60%;
 }
 
-#buttonE{
+#topicButton{
   background-color: #9c40d6;
-  border: none;
-
-}
-
-
-#topic{
+  border-color: #8521c4;
+  color: white;
   font-family: "Roboto", sans-serif;
+  font-size: 100%;
   text-transform: uppercase;
+  border-radius: 5%;
+  padding: 5%;
 }
 
 #navb {
