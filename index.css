@@ -12,6 +12,21 @@ input[type=text]:focus {
     width: 60%;
 }
 
+.form button {
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  outline: 0;
+  background: purple;
+  width: 100%;
+  border: 0;
+  padding: 15px;
+  color: #FFFFFF;
+  font-size: 14px;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;
+}
+
 #navb {
     color: purple;
 }
@@ -21,11 +36,11 @@ input[type=text]:focus {
     margin-top: 1%;
     padding-left: 5%;
     border-bottom: 2px solid purple;
-    
-    
-    
+
+
+
     width: 50%;
-   
+
 }
 
 h2 {
@@ -38,7 +53,7 @@ h1 {
     font-size: 60px;
         font-family: 'BebasNeueRegular';
    font-weight: normal;
-   font-style: normal; 
+   font-style: normal;
 }
 
 #text {
