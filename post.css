@@ -1,0 +1,12 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+
+#postButton{
+  background-color: #9c40d6;
+  border-color: #8521c4;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-size: 100%;
+  text-transform: uppercase;
+  border-radius: 5%;
+  padding: 5%;
+}
