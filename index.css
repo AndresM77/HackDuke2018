@@ -12,11 +12,11 @@ input[type=text]:focus {
     width: 60%;
 }
 
-.selector button{
+#but{
   font-family: "Roboto", sans-serif;
   text-transform: uppercase;
   outline: 0;
-  background: purple;
+  background-color: purple;
   width: 100%;
   border: 0;
   padding: 15px;
