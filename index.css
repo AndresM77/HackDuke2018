@@ -12,7 +12,14 @@ input[type=text]:focus {
     width: 60%;
 }
 
-#buttonM{
+#buttonE{
+  background-color: #9c40d6;
+  border: none;
+
+}
+
+
+#topic{
   font-family: "Roboto", sans-serif;
   text-transform: uppercase;
 }
