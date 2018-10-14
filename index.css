@@ -1,0 +1,46 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+
+input[type=text] {
+    width: 130px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+/* When the input field gets focus, change its width to 100% */
+input[type=text]:focus {
+    float:left;
+    width: 60%;
+}
+
+#navb {
+    color: purple;
+}
+
+#header {
+    margin-left: 10%;
+    margin-top: 1%;
+    padding-left: 5%;
+    border-bottom: 2px solid purple;
+    
+    
+    
+    width: 50%;
+   
+}
+
+h2 {
+    color:purple;
+}
+
+h1 {
+    color:purple;
+    text-align: center;
+    font-size: 60px;
+        font-family: 'BebasNeueRegular';
+   font-weight: normal;
+   font-style: normal; 
+}
+
+#text {
+    margin-left: 45%;
+}
