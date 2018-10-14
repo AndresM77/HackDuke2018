@@ -12,7 +12,7 @@ input[type=text]:focus {
     width: 60%;
 }
 
-.form button {
+.selector button{
   font-family: "Roboto", sans-serif;
   text-transform: uppercase;
   outline: 0;
