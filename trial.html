@@ -1,0 +1,35 @@
+<html>
+   <head>
+       <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/instantsearch.js@2.3/dist/instantsearch.min.css">
+  <!-- Always use `2.x` versions in production rather than `2` to mitigate any side effects on your website,
+  Find the latest version on InstantSearch.js website: https://community.algolia.com/instantsearch.js/v2/guides/usage.html -->
+  <link rel="stylesheet" type="text/css" href="style.css">
+   </head>
+    <body>
+        <header>
+            <h1><center>Topic Search</center></h1>
+            <div id="input-container">
+                <input id="search-input" placeholder="Search for topics">
+            </div>
+        </header>
+        <main>
+            <div id="hits"></div>
+            <div id="pagination"></div>
+        </main>
+        
+        <script type="text/html" id="hit-template">
+  <div class="hit">
+    <div class="hit-image">
+      <img src="{{image}}" alt="{{name}}">
+    </div>
+    <div class="hit-content">
+      <h3 class="hit-price">${{price}}</h3>
+      <h2 class="hit-name">{{{_highlightResult.name.value}}}</h2>
+      <p class="hit-description">{{{_highlightResult.description.value}}}</p>
+    </div>
+  </div>
+</script>
+    </body>
+    <script src="https://cdn.jsdelivr.net/npm/instantsearch.js@2.3/dist/instantsearch.min.js"></script>
+    <script src="app.js"></script>
+</html>
